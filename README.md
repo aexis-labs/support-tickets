@@ -1,13 +1,19 @@
-# 🎫 Aexis Support Incident Manager
+# Aexis Sentinel
 
-An internal ticketing and incident logging dashboard built for Aexis Labs to track, manage, and visualize infrastructure security alerts and user support requests.
+An autonomous, AI-driven infrastructure protection engine built to ensure zero-downtime security for critical enterprise networks, cloud data centers, and high-stakes industrial systems.
 
-### 🛠️ Purpose
+## Key Features
+- **Autonomous Threat Detection**: Real-time volumetric traffic monitoring and behavioral analysis for core infrastructure nodes.
+- **Intelligent Network Protection**: Autonomous mitigation guardrails built to instantly identify and deflect high-risk anomalies, such as DDoS surges and brute-force intrusion attempts.
+- **Zero-Downtime Architecture**: Engineered to seamlessly isolate network threats and preserve essential enterprise services 24/7.
 
-This sub-system operates alongside **Aexis Sentinel** to provide network administrators, enterprise security operations center (SOC) teams, and system engineers with a clean dashboard for handling hardware issues, system downtimes, and security ticket requests.
+## Modules
+- 🛡️ **Sentinel v7.5** – Threat logging, AI hunting, live traffic monitor.
+- 🎫 **Incident Manager** – Ticket triage with AI classification.
+- 🛰️ **Intrusion Tracker** – Attack simulation and logging.
+- 🌐 **Global Threat Matrix** – Threat trends by country/year.
 
-### 🚀 Setup Instructions
-
-1. Install required packages:
-```bash
+## How to run it locally
+1. Install the dependencies:
+   ```bash
    pip install -r requirements.txt
